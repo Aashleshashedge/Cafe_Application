@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+<solid tools:ignore="ExtraText">
+
+    <color android:name="fbcolorr">#3c62ac</color>
+        tools:ignore="MissingPrefix"
+</solid>
+</selector>

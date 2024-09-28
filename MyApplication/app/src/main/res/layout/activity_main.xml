@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/img"
+    android:padding="8dp"
+    android:paddingBottom="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="361dp"
+        android:layout_height="819dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ExtraText,MissingConstraints"
+        tools:layout_editor_absoluteX="5dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="222dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            app:srcCompat="@drawable/foodlogo1"
+            app:tint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/cafehouse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Cafe House"
+            android:textColor="#FFFFFF"
+            android:textSize="75sp" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="100dp"
+            android:autoText="false"
+            android:background="#7E481C"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="Log In"
+            android:textAlignment="center"
+            android:textColorLink="#7E481C"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="200dp"
+            android:background="#7E481C "
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="REGISTER"
+            android:textColorLink="#FF9422"
+            android:textSize="20sp" />
+
+        />
+        <TextView
+            android:id="@+id/ToCreateAcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="Skip"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
